@@ -1,9 +1,7 @@
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Contact = () => {
-  return (
-    <section id="contato" className="py-20 px-4 bg-card">
+  return <section id="contato" className="py-20 px-4 bg-card">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -25,12 +23,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-foreground mb-2">Telefone</h3>
-                  <a 
-                    href="https://wa.me/5562996004949"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
+                  <a href="https://wa.me/5562996004949" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                     (62) 99600-4949
                   </a>
                 </div>
@@ -42,10 +35,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-foreground mb-2">E-mail</h3>
-                  <a 
-                    href="mailto:contador@laion.cnt.br"
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300"
-                  >
+                  <a href="mailto:contador@laion.cnt.br" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                     contador@laion.cnt.br
                   </a>
                 </div>
@@ -83,28 +73,13 @@ const Contact = () => {
                   com segurança e eficiência.
                 </p>
                 <div className="space-y-4">
-                  <a
-                    href="https://wa.me/5562996004949"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block"
-                  >
-                    <Button 
-                      size="lg"
-                      className="w-full bg-card text-foreground hover:bg-card/90 transition-all duration-300 shadow-soft"
-                    >
+                  <a href="https://wa.me/5562996004949" target="_blank" rel="noopener noreferrer" className="block">
+                    <Button size="lg" className="w-full bg-card text-foreground hover:bg-card/90 transition-all duration-300 shadow-soft">
                       Fale pelo WhatsApp
                     </Button>
                   </a>
-                  <a
-                    href="mailto:contador@laion.cnt.br"
-                    className="block"
-                  >
-                    <Button 
-                      size="lg"
-                      variant="outline"
-                      className="w-full border-2 border-card text-card hover:bg-card/10 transition-all duration-300"
-                    >
+                  <a href="mailto:contador@laion.cnt.br" className="block">
+                    <Button size="lg" variant="outline" className="w-full border-2 border-card hover:bg-card/10 transition-all duration-300 text-inherit">
                       Enviar e-mail
                     </Button>
                   </a>
@@ -115,22 +90,10 @@ const Contact = () => {
               <div className="mt-8 text-center">
                 <h3 className="text-lg font-bold text-foreground mb-4">Siga-nos nas redes sociais</h3>
                 <div className="flex justify-center gap-4">
-                  <a
-                    href="https://www.facebook.com/laion.cnt"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                    aria-label="Facebook"
-                  >
+                  <a href="https://www.facebook.com/laion.cnt" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300" aria-label="Facebook">
                     <Facebook size={24} />
                   </a>
-                  <a
-                    href="https://www.instagram.com/laion.cnt"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                    aria-label="Instagram"
-                  >
+                  <a href="https://www.instagram.com/laion.cnt" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300" aria-label="Instagram">
                     <Instagram size={24} />
                   </a>
                 </div>
@@ -139,8 +102,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
