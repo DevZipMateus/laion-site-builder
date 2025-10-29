@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -16,8 +17,21 @@ const Hero = () => {
   };
 
   return (
-    <section id="inicio" className="pt-32 pb-20 px-4 bg-gradient-subtle">
-      <div className="container mx-auto">
+    <section id="inicio" className="relative pt-32 pb-20 px-4 overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url(${heroBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="absolute inset-0 bg-background/85"></div>
+      </div>
+      
+      <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-6">
