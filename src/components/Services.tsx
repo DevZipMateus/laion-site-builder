@@ -36,21 +36,21 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicos" className="py-20 px-4 bg-gradient-subtle">
-      <div className="container mx-auto">
+    <section id="servicos" className="py-12 sm:py-16 md:py-20 px-4 bg-gradient-subtle">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
+          <div className="text-center mb-10 sm:mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
               Nossos serviços
             </h2>
-            <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <div className="w-20 sm:w-24 h-1 bg-primary mx-auto mb-4 sm:mb-6"></div>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
               Soluções completas em contabilidade para empresas de todos os portes e segmentos
             </p>
           </div>
 
           {/* Imagem decorativa */}
-          <div className="mb-12 animate-fade-in">
+          <div className="mb-8 sm:mb-10 md:mb-12 animate-fade-in">
             <img 
               src={servicesWorkspace} 
               alt="Workspace profissional de contabilidade com documentos e análise financeira" 
@@ -58,28 +58,28 @@ const Services = () => {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="p-8 bg-card rounded-xl shadow-soft hover:shadow-elegant transition-all duration-300 group animate-fade-in-up"
+                className="p-6 sm:p-8 bg-card rounded-xl shadow-soft hover:shadow-elegant transition-all duration-300 group animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors duration-300">
-                  <service.icon className="text-primary" size={32} />
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-primary/20 transition-colors duration-300">
+                  <service.icon className="text-primary" size={28} />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-3">
+                <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                   {service.description}
                 </p>
               </div>
             ))}
           </div>
 
-          <div className="mt-16 p-8 bg-primary/5 rounded-xl border-2 border-primary/20 text-center">
-            <p className="text-lg text-foreground font-medium">
+          <div className="mt-10 sm:mt-12 md:mt-16 p-6 sm:p-8 bg-primary/5 rounded-xl border-2 border-primary/20 text-center">
+            <p className="text-base sm:text-lg text-foreground font-medium px-4">
               Atendemos empresas de todos os portes e segmentos em todo o mercado brasileiro
             </p>
           </div>

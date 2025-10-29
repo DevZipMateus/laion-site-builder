@@ -25,28 +25,28 @@ const Header = () => {
     }
   };
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-card/95 backdrop-blur-md shadow-soft" : "bg-transparent"}`}>
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/logo.png" alt="Laion Helcidio - Contabilidade" className="h-24 w-auto" />
+            <img src="/logo.png" alt="Laion Helcidio - Contabilidade" className="h-12 sm:h-16 md:h-20 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <button onClick={() => scrollToSection("inicio")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
+          <nav className="hidden md:flex items-center gap-4 lg:gap-8">
+            <button onClick={() => scrollToSection("inicio")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium text-sm lg:text-base">
               Início
             </button>
-            <button onClick={() => scrollToSection("sobre")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
+            <button onClick={() => scrollToSection("sobre")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium text-sm lg:text-base">
               Sobre
             </button>
-            <button onClick={() => scrollToSection("servicos")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
+            <button onClick={() => scrollToSection("servicos")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium text-sm lg:text-base">
               Serviços
             </button>
-            <button onClick={() => scrollToSection("contato")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium">
+            <button onClick={() => scrollToSection("contato")} className="text-foreground hover:text-primary transition-colors duration-300 font-medium text-sm lg:text-base">
               Contato
             </button>
-            <Button onClick={() => scrollToSection("contato")} className="bg-primary text-primary-foreground hover:bg-accent transition-all duration-300">
+            <Button onClick={() => scrollToSection("contato")} className="bg-primary text-primary-foreground hover:bg-accent transition-all duration-300 text-sm lg:text-base">
               Fale conosco
             </Button>
           </nav>
