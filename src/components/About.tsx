@@ -1,4 +1,5 @@
 import { Target, Compass, Heart } from "lucide-react";
+import aboutTeam from "@/assets/about-team.jpg";
 
 const About = () => {
   return (
@@ -12,16 +13,25 @@ const About = () => {
             <div className="w-24 h-1 bg-primary mx-auto"></div>
           </div>
 
-          <div className="mb-16 animate-fade-in">
-            <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
-              Há mais de 20 anos no mercado contábil, acumulando experiência da teoria em conjunto com a prática. 
-              Iniciei no escritório de contabilidade como office boy, antiga profissão que foi extinta na contabilidade 
-              com o advento da tecnologia e digitalização dos processos. De lá pra cá me formei, especializei em 
-              Perícia, Planejamento Tributário, Reestruturação Societária, Planejamento Sucessório através das Holdings. 
-              Liderando uma equipe extremamente competente, hoje nossa atuação é em vários seguimentos, tipo e porte de 
-              empresa, andando lado a lado com empresário, atendendo as legislações vigente e buscando sempre soluções 
-              para cada negócio.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 items-center animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Há mais de 20 anos no mercado contábil, acumulando experiência da teoria em conjunto com a prática. 
+                Iniciei no escritório de contabilidade como office boy, antiga profissão que foi extinta na contabilidade 
+                com o advento da tecnologia e digitalização dos processos. De lá pra cá me formei, especializei em 
+                Perícia, Planejamento Tributário, Reestruturação Societária, Planejamento Sucessório através das Holdings. 
+                Liderando uma equipe extremamente competente, hoje nossa atuação é em vários seguimentos, tipo e porte de 
+                empresa, andando lado a lado com empresário, atendendo as legislações vigente e buscando sempre soluções 
+                para cada negócio.
+              </p>
+            </div>
+            <div className="order-1 lg:order-2">
+              <img 
+                src={aboutTeam} 
+                alt="Equipe de contabilidade profissional analisando documentos financeiros" 
+                className="rounded-xl shadow-elegant w-full h-auto"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

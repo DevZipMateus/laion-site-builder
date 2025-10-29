@@ -1,4 +1,5 @@
 import { FileText, TrendingUp, Users, Shield, Calculator, Building2 } from "lucide-react";
+import servicesWorkspace from "@/assets/services-workspace.jpg";
 
 const Services = () => {
   const services = [
@@ -46,6 +47,15 @@ const Services = () => {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Soluções completas em contabilidade para empresas de todos os portes e segmentos
             </p>
+          </div>
+
+          {/* Imagem decorativa */}
+          <div className="mb-12 animate-fade-in">
+            <img 
+              src={servicesWorkspace} 
+              alt="Workspace profissional de contabilidade com documentos e análise financeira" 
+              className="rounded-xl shadow-elegant w-full h-auto max-w-4xl mx-auto"
+            />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
