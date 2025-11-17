@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Clock, Facebook, Instagram } from "lucide-react";
+import { Phone, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,13 +15,6 @@ const Footer = () => {
               >
                 <Phone size={16} className="mr-2 flex-shrink-0" />
                 <span>(62) 99600-4949</span>
-              </a>
-              <a 
-                href="mailto:contador@laion.cnt.br"
-                className="flex items-center text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Mail size={16} className="mr-2 flex-shrink-0" />
-                <span className="break-all">contador@laion.cnt.br</span>
               </a>
               <div className="flex items-start text-sm sm:text-base text-muted-foreground">
                 <MapPin size={16} className="mr-2 mt-1 flex-shrink-0" />
@@ -71,7 +64,6 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-border text-center text-muted-foreground text-xs sm:text-sm">
           <p className="px-4">© {new Date().getFullYear()} Laion Helcidio - Contabilidade. Todos os direitos reservados.</p>
-          <p className="mt-2">CRC/GO 004.843.101-00</p>
         </div>
       </div>
     </footer>

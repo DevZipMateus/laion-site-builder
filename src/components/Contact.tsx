@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
+import { Phone, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const Contact = () => {
   return <section id="contato" className="py-12 sm:py-16 md:py-20 px-4 bg-card">
@@ -29,17 +29,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-3 sm:gap-4 p-4 sm:p-6 bg-background rounded-xl shadow-soft hover:shadow-elegant transition-all duration-300">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Mail className="text-primary" size={20} />
-                </div>
-                <div>
-                  <h3 className="text-base sm:text-lg font-bold text-foreground mb-1 sm:mb-2">E-mail</h3>
-                  <a href="mailto:contador@laion.cnt.br" className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors duration-300 break-all">
-                    contador@laion.cnt.br
-                  </a>
-                </div>
-              </div>
 
               <div className="flex items-start gap-3 sm:gap-4 p-4 sm:p-6 bg-background rounded-xl shadow-soft hover:shadow-elegant transition-all duration-300">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
@@ -76,11 +65,6 @@ const Contact = () => {
                   <a href="https://wa.me/5562996004949" target="_blank" rel="noopener noreferrer" className="block">
                     <Button size="lg" className="w-full bg-card text-foreground hover:bg-card/90 transition-all duration-300 shadow-soft text-sm sm:text-base">
                       Fale pelo WhatsApp
-                    </Button>
-                  </a>
-                  <a href="mailto:contador@laion.cnt.br" className="block">
-                    <Button size="lg" variant="outline" className="w-full border-2 border-card hover:bg-card/10 transition-all duration-300 text-inherit text-sm sm:text-base">
-                      Enviar e-mail
                     </Button>
                   </a>
                 </div>
