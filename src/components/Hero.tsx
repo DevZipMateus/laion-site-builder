@@ -37,7 +37,7 @@ const Hero = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-4 sm:mb-6 leading-tight">
               Laion Helcidio - Contabilidade
             </h1>
-            <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-light leading-relaxed px-2">
+            <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-light leading-relaxed px-2 text-justify">
               Excelência em soluções contábeis, fiscais e periciais com mais de 20 anos de experiência no mercado
             </h2>
           </div>

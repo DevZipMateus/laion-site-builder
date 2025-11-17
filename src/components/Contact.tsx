@@ -9,7 +9,7 @@ const Contact = () => {
               Entre em contato
             </h2>
             <div className="w-20 sm:w-24 h-1 bg-primary mx-auto mb-4 sm:mb-6"></div>
-            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4 text-justify">
               Estamos prontos para atender você e transformar a gestão do seu negócio
             </p>
           </div>

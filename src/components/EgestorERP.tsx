@@ -21,7 +21,7 @@ const EgestorERP = () => {
                 Sistema de gestão empresarial
               </h2>
             </a>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 font-normal px-4 md:px-0">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 font-normal px-4 md:px-0 text-justify">
               Dobre seus lucros otimizando sua gestão
             </p>
           </div>
