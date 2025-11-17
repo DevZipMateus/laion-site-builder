@@ -44,7 +44,7 @@ const Services = () => {
               Nossos serviços
             </h2>
             <div className="w-20 sm:w-24 h-1 bg-primary mx-auto mb-4 sm:mb-6"></div>
-            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4 text-justify">
               Soluções completas em contabilidade para empresas de todos os portes e segmentos
             </p>
           </div>
@@ -71,7 +71,7 @@ const Services = () => {
                 <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3">
                   {service.title}
                 </h3>
-                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-justify">
                   {service.description}
                 </p>
               </div>
@@ -79,7 +79,7 @@ const Services = () => {
           </div>
 
           <div className="mt-10 sm:mt-12 md:mt-16 p-6 sm:p-8 bg-primary/5 rounded-xl border-2 border-primary/20 text-center">
-            <p className="text-base sm:text-lg text-foreground font-medium px-4">
+            <p className="text-base sm:text-lg text-foreground font-medium px-4 text-justify">
               Atendemos empresas de todos os portes e segmentos em todo o mercado brasileiro
             </p>
           </div>

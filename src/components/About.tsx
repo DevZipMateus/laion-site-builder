@@ -15,7 +15,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 mb-12 sm:mb-14 md:mb-16 items-center animate-fade-in">
             <div className="order-2 lg:order-1">
-              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed text-justify">
                 Há mais de 20 anos no mercado contábil, acumulando experiência da teoria em conjunto com a prática. 
                 Iniciei no escritório de contabilidade como office boy, antiga profissão que foi extinta na contabilidade 
                 com o advento da tecnologia e digitalização dos processos. De lá pra cá me formei, especializei em 
@@ -41,7 +41,7 @@ const About = () => {
                 <Target className="text-primary" size={28} />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-foreground mb-3 sm:mb-4">Visão</h3>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-justify">
                 Ser referência em contabilidade estratégica e pericial, reconhecida pela precisão técnica, 
                 credibilidade e contribuição efetiva para o desenvolvimento econômico e social das empresas 
                 e da comunidade.
@@ -54,7 +54,7 @@ const About = () => {
                 <Compass className="text-primary" size={28} />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-foreground mb-3 sm:mb-4">Missão</h3>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-justify">
                 Oferecer soluções contábeis, fiscais e periciais com excelência, clareza e responsabilidade, 
                 transformando dados financeiros em informações que orientam decisões seguras, fortalecem negócios 
                 e promovem justiça e transparência.
